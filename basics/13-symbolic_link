@@ -1,2 +1,2 @@
 #!/bin/bash
-ln -s [/bin/ls] [atlas-shell/__ls__]
+ln -s /bin/ls /atlas-shell/__ls__
