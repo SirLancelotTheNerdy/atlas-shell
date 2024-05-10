@@ -1,2 +1,2 @@
 #!/bin/bash
-touch exactly " \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)" echo "Best School" > \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
+xargs -d'\n' touch -- << '.' \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) . echo "Best School" > \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
